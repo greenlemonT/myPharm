@@ -1,11 +1,11 @@
-package myPharm.myPharm.domain.alert.entity;
+package myPharm.myPharm.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import myPharm.myPharm.domain.ingredient.entity.IngredientEntity;
+import myPharm.myPharm.domain.entity.IngredientEntity;
 import myPharm.myPharm.global.AlertEnum;
 
 @Data
