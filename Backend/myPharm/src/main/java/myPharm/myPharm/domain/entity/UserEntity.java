@@ -1,4 +1,4 @@
-package myPharm.myPharm.domain.user.entity;
+package myPharm.myPharm.domain.entity;
 
 
 import jakarta.persistence.*;

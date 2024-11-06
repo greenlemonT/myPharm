@@ -1,4 +1,4 @@
-package myPharm.myPharm.domain.medicine.entity;
+package myPharm.myPharm.domain.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -13,10 +13,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class MedicineEntity {
+public class IngredientEntity {
 
     @Id
-    @Column(name="medicine_name")
-    private String medicineName;
-
+    @Column(name = "ingredient_name")
+    private String ingredientName;
 }

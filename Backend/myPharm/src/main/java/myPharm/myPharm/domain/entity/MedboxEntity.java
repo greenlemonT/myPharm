@@ -1,14 +1,11 @@
-package myPharm.myPharm.domain.medbox.entity;
+package myPharm.myPharm.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import myPharm.myPharm.domain.medicine.entity.MedicineEntity;
-import myPharm.myPharm.domain.user.entity.UserEntity;
 
-import java.time.DateTimeException;
 import java.util.Date;
 
 @Data
